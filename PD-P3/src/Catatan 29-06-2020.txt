@@ -1,0 +1,25 @@
+Penjualan Elektronik
+
+- tv
+- kipas
+- speaker
+
+Abstract : kelas yg memiliki tingkatan class tertinggi (harus menjadi super class)
+di dalam AC, yg membedakan dg class lain adalah
+- dia memiliki method atau atribut berjenis abstract
+
+atribut : menjadi atribut yg utama & belum spesifik (jarang digunakan)
+method : method abstract yang tdk memiliki spesifik nilai 
+
+
+Interface : sebuah class yg hanya berisi method abstract (walaupun tidak diberi keterangan abstract)
+interface tidak memiliki constructor, setter, getter
+
+Super class (abstract) : Elektronik
+Sub class : tv, kipas, speaker
+
+Tv : harganya 200.000, diskon 5%
+kipas : harga 100.000
+speaker : harga 50.000
+
+method : total(), diskon(), cetak() --> interface
